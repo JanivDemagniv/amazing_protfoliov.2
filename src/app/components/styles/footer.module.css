@@ -1,0 +1,33 @@
+.footer {
+    min-height: 35vh;
+    width: 100vw;
+    display: grid;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.footer_content {
+    width: 70vw;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link_list {
+    width: 15%;
+
+}
+
+.link_list ul {
+    list-style-type: none;
+}
+
+.short_about {
+    width: 85%;
+}
+
+.media {
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}

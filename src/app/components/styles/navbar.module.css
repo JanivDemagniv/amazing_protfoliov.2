@@ -1,0 +1,34 @@
+.nav_bar {
+    background-color: #ebebeb;
+    color: #333;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vw;
+    box-shadow: 0 0 5px #979797;
+}
+
+.nav_bar span {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav_bar span .backColor {
+    background-color: #f1ed47;
+}
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav_bar li {
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,17 @@
+.iconbutton {
+    background-color: #f4f4f4;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
