@@ -1,12 +1,12 @@
 'use client';
 
 import React from 'react';
-import './Title.css'
+import styles from './Title.module.css'
 
 
 export default function Title({ title, subtitle }) {
     return (
-        <div className='title'>
+        <div className={styles.title}>
             <h1>{title}</h1>
             <h6>{subtitle}</h6>
             <hr />

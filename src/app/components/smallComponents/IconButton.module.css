@@ -11,7 +11,11 @@
     margin: 0 5px;
 }
 
-img {
+.iconbutton:hover {
+    background-color: #cbcbcb;
+}
+
+.img {
     width: 20px;
     height: 20px;
 }

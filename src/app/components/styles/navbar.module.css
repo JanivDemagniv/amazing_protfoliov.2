@@ -8,6 +8,7 @@
     align-items: center;
     padding: 2vh 4vw;
     box-shadow: 0 0 5px #979797;
+    z-index: 100;
 }
 
 .nav_bar span {
