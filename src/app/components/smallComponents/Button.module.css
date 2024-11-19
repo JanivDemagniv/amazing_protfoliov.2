@@ -10,7 +10,9 @@
 }
 
 .button:hover {
+    color: #1c1c1c;
     background-color: #f1ed47;
+    text-decoration: underline;
 }
 
 .button .ripple {

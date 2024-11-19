@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import './Button.css';
+import styles from './Button.module.css'
 import Link from 'next/link';
 
 const Button = ({ label, to, color = '#1c1c1c' }) => {
@@ -18,12 +18,12 @@ const Button = ({ label, to, color = '#1c1c1c' }) => {
     };
 
     return (
-        <button className="button" onClick={handleClick}>
+        <button className={styles.button} onClick={handleClick}>
             <Link href={to} style={{ color: color }}>{label}</Link>
             {ripples.map((ripple, index) => (
                 <span
                     key={index}
-                    className="ripple"
+                    className={styles.ripple}
                     style={{
                         left: `${ripple.x}px`,
                         top: `${ripple.y}px`,
