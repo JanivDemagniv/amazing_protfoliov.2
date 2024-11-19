@@ -10,7 +10,9 @@ const IconButton = ({ to, icon, alt }) => {
 
     return (
         <button className={styles.iconbutton}>
-            <Link href={to}><img className={styles.img} src={icon} alt={alt} /></Link>
+            <Link href={to}>
+                <img className={styles.img} src={icon} alt={alt} />
+            </Link>
         </button>
     );
 };

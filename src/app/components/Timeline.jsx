@@ -6,7 +6,7 @@ export default function Timeline({ events }) {
         <div className={styles.container}>
             <div className={styles.timeline}>
                 <div className={styles.line}></div>
-                {events.map((event, index) => (
+                {events.reverse().map((event, index) => (
                     <div
                         className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right
                             }`}
@@ -16,6 +16,9 @@ export default function Timeline({ events }) {
                             <h3>{event.title}</h3>
                             <p className={styles.date}>{event.date}</p>
                             <p>{event.description}</p>
+                            <h4>Skills:</h4>
+                            <p>{event.skills}</p>
+                            <img src={event.imgUrl} alt={event.imgAlt} />
                         </div>
                     </div>
                 ))}
