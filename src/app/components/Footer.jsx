@@ -17,8 +17,8 @@ export default function Footer({ }) {
                     </ul>
                 </div>
                 <div className={styles.short_about}>
-                    <h5>short about</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quidem id, dolor ipsam at quisquam iste commodi soluta, ut facilis facere mollitia suscipit? Nisi doloremque obcaecati illo delectus commodi, est officiis necessitatibus perspiciatis et! Animi autem dicta harum? Non id veritatis enim ad qui accusantium! Praesentium dolores provident labore laborum assumenda ad doloribus mollitia error accusantium! Id rerum consequuntur repellendus dolorem officiis. Veniam cum possimus veritatis adipisci laboriosam ex aliquam quo voluptate unde quis. Adipisci hic saepe molestias quae vitae esse sint, et labore nemo consequatur placeat dolor asperiores fugiat quod illo, mollitia, minus facere consectetur harum possimus incidunt numquam ad. Provident fugiat odit officiis ratione, veniam, voluptatibus tempora cum et molestias blanditiis ad minus dolores ab laudantium ipsa! Temporibus saepe quidem expedita consequatur voluptate?</p>
+                    <h5>About</h5>
+                    <p style={{ fontWeight: 'normal', fontSize: '0.9rem' }}>My name is Yaniv Romem, I'm 32 form Tel Aviv. most of my life I tried to pursue my life goal to become a musician. trough out the years I realized that music is my love, but not my proffetion. I dicided to take a change in my life and go back to my old dream to become a web developer. as a kid I used to build websites with photoshop and HTML, back then I didn't know English but it didn't bother me finding the relvnte code I needed for my websites. I do belive that my life expriens will help me get along in any working enviorment</p>
                 </div>
             </div>
             <div className={styles.media}>
