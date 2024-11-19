@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import styles from './Title.module.css'
+import styles from './styles/Title.module.css'
 
 
 export default function Title({ title, subtitle }) {

@@ -1,4 +1,4 @@
-import Title from "./components/smallComponents/Title";
+import Title from "./components/Title";
 import styles from "./page.module.css";
 
 export default function Home() {

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import styles from './Button.module.css'
+import styles from './styles/Button.module.css'
 import Link from 'next/link';
 
 const Button = ({ label, to, color = '#1c1c1c' }) => {

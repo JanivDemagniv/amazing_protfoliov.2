@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles/footer.module.css';
-import Button from './smallComponents/Button';
-import IconButton from './smallComponents/IconButton';
+import Button from './Button';
+import IconButton from './IconButton';
 
 export default function Footer({ }) {
     return (

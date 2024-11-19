@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
-import styles from './IconButton.module.css'
+import styles from './styles/IconButton.module.css'
 
 
 const IconButton = ({ to, icon, alt }) => {

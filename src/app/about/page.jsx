@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../page.module.css'
-import Button from '../components/smallComponents/Button'
+import Button from '../components/Button'
 
 export default function page() {
     return (
