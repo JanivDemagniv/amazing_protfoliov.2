@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from '../page.module.css'
 import Button from '../components/Button'
+import Title from '../components/Title'
 
 export default function page() {
     return (
         <div className={styles.main}>
+            <Title title='About Me' subtitle='Here You Get A Chance To know me a liltle better' />
             <div className={styles.aboutAll}>
                 <div className={styles.aboutHeader}>
                     <div className={styles.header}>

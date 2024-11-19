@@ -10,7 +10,7 @@ export default function NavBar({ }) {
                 <li><Button to='/' label='Home' /></li>
                 <li><Button to='/about' label='About' /></li>
                 <li><Button to='/projects' label='Projects' /></li>
-                <li><Button to='/projects' label='Game Center' /></li>
+                <li><Button to='/gamecenter' label='Game Center' /></li>
                 <li><Button to='/contact' label='Contact Me' /></li>
             </ul>
         </nav>
