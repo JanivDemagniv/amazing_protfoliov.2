@@ -1,9 +1,38 @@
 const projects = [
     {
-        name: '',
-        discription: '',
-        thecnolegy: '',
-        picture: '',
-        githubLink: ''
+        title: "Music Blog Frontend",
+        description: "A frontend application for a music blog where users can view, like, and comment on album reviews. Includes dynamic content rendering and a sleek, responsive design.",
+        technology: "React.js, MUI, CSS, React Router",
+        imgUrl: "https://placehold.co/200x200",
+        imgAlt: 'Picture',
+        githubLink: "https://github.com/JanivDemagniv/BlodFrontEnd",
+        date: "2024-05-01"
+    }, {
+        title: "Music Blog Backend",
+        description: "A backend application for managing the music blog. Features include user authentication, comment management, and a robust REST API for handling blog data.",
+        technology: "Node.js, Express.js, MongoDB, Mongoose, JWT",
+        imgUrl: "https://placehold.co/200x200",
+        imgAlt: 'Picture',
+        githubLink: "https://github.com/JanivDemagniv/MusicBlogV2server",
+        date: "2024-05-01"
+    },
+    {
+        title: "Business Card App Backend",
+        description: "A backend system for a business card app that allows users to create, edit, delete, and manage virtual business cards. Includes user roles and secure authentication.",
+        technology: "Node.js, Express.js, MongoDB, Mongoose, JWT",
+        imgUrl: "https://placehold.co/200x200",
+        imgAlt: 'Picture',
+        githubLink: "https://github.com/JanivDemagniv/CardServer",
+        date: "2024-04-15"
+    }, {
+        title: "Business Card App Frontend",
+        description: "A user-friendly frontend for a business card management app. Features include card creation, a search bar, and user authentication for managing and viewing cards.",
+        technology: "React.js, MUI, CSS, React Router",
+        imgUrl: "https://placehold.co/200x200",
+        imgAlt: 'Picture',
+        githubLink: "https://github.com/JanivDemagniv/cardsProject",
+        date: "2024-04-15"
     }
-]
+];
+
+export default projects;

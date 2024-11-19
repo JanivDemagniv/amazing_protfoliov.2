@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './styles/Timeline.module.css'
+import Button from './Button';
 
 export default function Timeline({ events }) {
     return (
         <div className={styles.container}>
             <div className={styles.timeline}>
                 <div className={styles.line}></div>
-                {events.reverse().map((event, index) => (
+                {events.map((event, index) => (
                     <div
                         className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right
                             }`}
@@ -17,8 +18,9 @@ export default function Timeline({ events }) {
                             <p className={styles.date}>{event.date}</p>
                             <p>{event.description}</p>
                             <h4>Skills:</h4>
-                            <p>{event.skills}</p>
+                            <p>{event.technology}</p>
                             <img src={event.imgUrl} alt={event.imgAlt} />
+                            <Button label='Github' to={event.githubLink} />
                         </div>
                     </div>
                 ))}
