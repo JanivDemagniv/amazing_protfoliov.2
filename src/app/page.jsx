@@ -1,10 +1,13 @@
+import Technolgy from "./components/Technolgy";
 import Title from "./components/Title";
 import styles from "./page.module.css";
+import skills from "./data/skills";
 
 export default function Home() {
   return (
     <div className={styles.main}>
       <Title title="Main Page" subtitle="Here is the main page" />
+      <Technolgy skills={skills} />
       <div className={styles.latest}>
         <div>
           <h2>Latest Projects:</h2>

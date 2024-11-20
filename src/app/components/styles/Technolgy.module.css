@@ -1,0 +1,17 @@
+.skillsLine {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.skillClass {
+    overflow: hidden;
+}
+
+.skillsLine .skillClass img {
+    width: 45px;
+    height: 45px;
+}
