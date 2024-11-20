@@ -5,9 +5,10 @@
     max-width: 70vw;
     margin: 20px auto;
     padding: 10px;
-    background-color: #f7ff70;
+    background: rgb(247, 255, 112);
+    background: linear-gradient(11deg, rgba(247, 255, 112, 1) 0%, rgba(241, 237, 71, 1) 100%, rgba(241, 237, 71, 1) 100%);
     border-radius: 10px;
-    box-shadow: 0 0 5px 1px rgb(120, 120, 120, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
 }
 

@@ -7,7 +7,7 @@ export default function NavBar({ }) {
         <nav className={styles.nav_bar}>
             <div className={styles.logo}>
                 <div className={styles.profilePic}><img src="./protfolioPic.jpg" alt="Profile Picture" /></div>
-                <span><span className={styles.backColor}>Yaniv</span> Romem</span>
+                <span className={styles.title}><span className={styles.backColor}>Yaniv</span> Romem</span>
             </div>
             <div>
                 <ul>
