@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles/Timeline.module.css'
 import Button from './Button';
+import Technolgy from './Technolgy';
 
 export default function Timeline({ events }) {
     return (
@@ -18,7 +19,9 @@ export default function Timeline({ events }) {
                             <p className={styles.date}>{event.date}</p>
                             <p>{event.description}</p>
                             <h4>Skills:</h4>
-                            <p>{event.technology}</p>
+                            <div>
+                                <Technolgy skills={event.skills} />
+                            </div>
                             <img src={event.imgUrl} alt={event.imgAlt} />
                             <Button label='Github' to={event.githubLink} />
                         </div>
