@@ -18,7 +18,6 @@ export default function Timeline({ events }) {
                             <h3>{event.title}</h3>
                             <p className={styles.date}>{event.date}</p>
                             <p>{event.description}</p>
-                            <h4>Skills:</h4>
                             <div>
                                 <Technolgy skills={event.skills} />
                             </div>

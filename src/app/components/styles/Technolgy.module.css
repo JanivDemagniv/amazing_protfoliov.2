@@ -12,6 +12,8 @@
 
 .skillClass {
     overflow: hidden;
+    width: 45px;
+    height: 45px;
 }
 
 .skillsLine .skillClass img {
