@@ -9,12 +9,14 @@
     margin: 0 auto;
 }
 
+
 .timeline {
     width: 100%;
     position: relative;
     margin: 0 auto;
     padding: 20px 0;
 }
+
 
 .line {
     position: absolute;
@@ -30,6 +32,7 @@
     position: relative;
     margin: 40px 0;
 }
+
 
 .left {
     text-align: right;
@@ -48,6 +51,11 @@
     display: inline-block;
     max-width: 45%;
     text-align: left;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.timelineContent:hover {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
 }
 
 .left .timelineContent {

@@ -4,6 +4,7 @@
     display: grid;
     color: white;
     background-color: #1a1a1a;
+    border-bottom: 5px solid #f1ed47;
 }
 
 .footer_content {

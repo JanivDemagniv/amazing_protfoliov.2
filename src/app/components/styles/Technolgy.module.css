@@ -8,6 +8,11 @@
     background-color: #f7ff70;
     border-radius: 10px;
     box-shadow: 0 0 5px 1px rgb(120, 120, 120, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.skillsLine:hover {
+    box-shadow: 0 0 5px 3px rgb(120, 120, 120, 0.3);
 }
 
 .skillClass {
@@ -22,6 +27,7 @@
 }
 
 .toolTip {
+    min-width: 100px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -31,8 +37,7 @@
     background-color: #f1ed47;
     padding: 10px;
     border-radius: 10px;
-    transform: translateX(-50%);
-    white-space: nowrap;
+    box-shadow: 0 0 5px 3px rgb(120, 120, 120, 0.3);
     visibility: hidden;
     transform: translate(-50%, 0);
     transition: all 0.5s ease-in-out;
@@ -41,8 +46,5 @@
 
 .skillClass:hover .toolTip {
     opacity: 1;
-    /* Fully visible */
     visibility: visible;
-    /* Allow interactions */
-    /* transform: translate(-50%, 0); */
 }

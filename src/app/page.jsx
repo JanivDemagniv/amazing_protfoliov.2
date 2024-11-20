@@ -6,7 +6,12 @@ import skills from "./data/skills";
 export default function Home() {
   return (
     <div className={styles.main}>
-      <Title title="Main Page" subtitle="Here is the main page" />
+      <Title
+        title="Yaniv Romem"
+        subtitle="FullStack Developer"
+        src='./protfolioPic.jpg'
+        alt='ProfilePic'
+      />
       <Technolgy skills={skills} />
       <div className={styles.latest}>
         <div>

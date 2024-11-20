@@ -1,4 +1,30 @@
 .title {
     font-size: 1.5rem;
     margin: 3vh 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 20%, rgba(247, 255, 112, 1) 100%);
+    padding: 15px 15px 15px 0;
+    border-radius: 20px;
+    box-shadow: 1px 0 1px 0.1px rgb(156, 156, 156, 0.3);
+    transition: 0.5s ease-in-out;
+}
+
+.title:hover {
+    box-shadow: 1px 0 1px 0.1px rgb(156, 156, 156, 0.5);
+    padding: 15px;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.picture img {
+    width: 220px;
+    object-fit: contain;
 }

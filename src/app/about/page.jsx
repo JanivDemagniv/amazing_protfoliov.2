@@ -6,7 +6,12 @@ import Title from '../components/Title'
 export default function page() {
     return (
         <div className={styles.main}>
-            <Title title='About Me' subtitle='Here You Get A Chance To know me a liltle better' />
+            <Title
+                title='About Me'
+                subtitle='Here You Get A Chance To know me a liltle better'
+                src='./mypic.jpg'
+                alt='profilepic'
+            />
             <div className={styles.aboutAll}>
                 <div className={styles.aboutHeader}>
                     <div className={styles.header}>

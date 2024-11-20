@@ -7,7 +7,12 @@ import projects from '../data/projects'
 export default function page() {
     return (
         <div className={styles.main}>
-            <Title title='My Projects' subtitle='My Proggress as a Developer' />
+            <Title
+                title='My Projects'
+                subtitle='My Proggress as a Developer'
+                src='./projects.jpg'
+                alt='projects'
+            />
             <Timeline events={projects} />
         </div>
     )
