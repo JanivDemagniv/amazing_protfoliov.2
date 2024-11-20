@@ -11,6 +11,24 @@
     z-index: 100;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.profilePic {
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profilePic img {
+    width: 45px;
+    height: 45px;
+}
+
 .nav_bar span {
     font-weight: bold;
     font-size: 2rem;
