@@ -5,12 +5,12 @@
     left: 0;
     right: 0;
     display: flex;
-    width: 50vw;
+    width: 70vw;
     margin: 0 auto;
 }
 
 .timeline {
-    width: 70%;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     padding: 20px 0;
@@ -72,11 +72,11 @@
 }
 
 .left .timelineContent::before {
-    right: -32px;
+    right: -65px;
 }
 
 .right .timelineContent::before {
-    left: -32px;
+    left: -65px;
 }
 
 .date {
