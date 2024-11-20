@@ -12,8 +12,8 @@ export default function Footer({ }) {
                     <ul>
                         <li><Button color='#f1f1f1' to='/' label='Home' /></li>
                         <li><Button color='#f1f1f1' to='/projects' label='Projects' /></li>
-                        <li><Button color='#f1f1f1' to='/projects' label='Game Center' /></li>
-                        <li><Button color='#f1f1f1' to='/projects' label='Contact Me' /></li>
+                        <li><Button color='#f1f1f1' to='/gamecenter' label='Game Center' /></li>
+                        <li><Button color='#f1f1f1' to='/contact' label='Contact Me' /></li>
                     </ul>
                 </div>
                 <div className={styles.short_about}>
