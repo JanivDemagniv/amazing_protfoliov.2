@@ -1,0 +1,43 @@
+.aboutAll {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.aboutAll p {
+    padding: 20px;
+    text-align: justify;
+    background-color: #f7ff70;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.aboutAll button {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.aboutHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.aboutHeader .imgHeader {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.aboutHeader .imgHeader img {
+    width: 150px;
+    height: 150px;
+    transition: all 0.7s ease-in-out;
+}
+
+.aboutAll .imgHeader img:hover {
+    transform: scale(1.5);
+}

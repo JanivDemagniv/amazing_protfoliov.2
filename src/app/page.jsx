@@ -2,6 +2,11 @@ import Technolgy from "./components/Technolgy";
 import Title from "./components/Title";
 import styles from "./page.module.css";
 import skills from "./data/skills";
+import Timeline from "./components/Timeline";
+import projects from "./data/projects";
+import ImageSlider from "./components/ImageSlider";
+import games from "./data/games";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -13,20 +18,24 @@ export default function Home() {
         alt='ProfilePic'
       />
       <Technolgy skills={skills} />
-      <div className={styles.latest}>
-        <div>
-          <h2>Latest Projects:</h2>
-          <h6>Watch My latest Projects</h6>
-        </div>
-        <div>
-          <h3>
-            Music Blog Project
-          </h3>
-          <p>
-            the project blabla Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit iste quisquam expedita atque animi quo molestiae, deleniti praesentium alias officiis sit, repellat pariatur numquam vero tempore perferendis. Doloribus id magni corporis itaque, odio fugit aperiam laboriosam perspiciatis fuga aspernatur sapiente provident quod velit quae? Quaerat cupiditate fuga facere delectus ex facilis nulla officia velit, nobis quo doloremque dolore est qui autem molestiae. Debitis maxime deleniti sunt culpa obcaecati doloribus, quidem excepturi consectetur facere dolores porro, ipsam blanditiis nobis, illum quas autem eaque cum sequi possimus non cupiditate deserunt aperiam? Reiciendis, error doloribus deserunt sed iste, dignissimos exercitationem molestias magni ratione, veniam hic expedita sequi! Odio quis sit cum vel repellendus temporibus amet velit quia! Ipsa id tempore iusto dolorem, debitis officiis. Voluptates sunt cum tempora!
-          </p>
-        </div>
-      </div>
+      <br />
+      <About />
+      <br />
+      <Title
+        title='My Projects'
+        subtitle='My Proggress as a Developer'
+        src='./projects.jpg'
+        alt='projects'
+      />
+      <Timeline events={projects} />
+      <br />
+      <Title
+        title='Game Center'
+        subtitle='Here are some games I have created'
+        src='./gamecenter.jpg'
+        alt='gameCenter'
+      />
+      <ImageSlider slides={games} />
     </div>
   );
 }
