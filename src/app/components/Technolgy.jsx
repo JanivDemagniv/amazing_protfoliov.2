@@ -15,7 +15,7 @@ const shereTech = Share_Tech({
 export default function Technolgy({ skills }) {
     return (
         <div className={styles.container}>
-            <h6 className={lobster.className}>My Skills:</h6>
+            <h6 className={lobster.className}>Skills:</h6>
             <div className={styles.skillsLine}>
                 {skills.map((skill) => {
                     return <div className={`${styles.skillClass} ${shereTech.className}`}>
