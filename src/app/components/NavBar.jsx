@@ -1,11 +1,17 @@
 import React from 'react'
 import styles from './styles/navbar.module.css'
 import Button from './Button'
+import { Lobster } from 'next/font/google'
+
+const lobster = Lobster({
+    subsets: ['latin'],
+    weight: ['400']
+})
 
 export default function NavBar({ }) {
     return (
         <nav className={styles.nav_bar}>
-            <div className={styles.logo}>
+            <div className={`${styles.logo} ${lobster.className}`}>
                 <div className={styles.profilePic}><img src="./protfolioPic.jpg" alt="Profile Picture" /></div>
                 <span className={styles.title}><span className={styles.backColor}>Yaniv</span> Romem</span>
             </div>
