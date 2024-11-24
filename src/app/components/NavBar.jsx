@@ -17,11 +17,11 @@ export default function NavBar({ }) {
             </div>
             <div>
                 <ul>
-                    <li><Button to='/' label='Home' /></li>
-                    <li><Button to='/about' label='About' /></li>
-                    <li><Button to='/projects' label='Projects' /></li>
-                    <li><Button to='/gamecenter' label='Game Center' /></li>
-                    <li><Button to='/contact' label='Contact Me' /></li>
+                    <li><Button key='homeUp' to='/' label='Home' /></li>
+                    <li><Button key='aboutUp' to='/about' label='About' /></li>
+                    <li><Button key='projectsUp' to='/projects' label='Projects' /></li>
+                    <li><Button key='gameUp' to='/gamecenter' label='Game Center' /></li>
+                    <li><Button key='contactUp' to='/contact' label='Contact Me' /></li>
                 </ul>
             </div>
         </nav>

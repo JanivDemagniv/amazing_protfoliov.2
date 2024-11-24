@@ -21,10 +21,10 @@ export default function Footer({ }) {
                 <div className={styles.link_list}>
                     <h5>Links</h5>
                     <ul>
-                        <li><Button key='1' color='#f1f1f1' to='/' label='Home' /></li>
-                        <li><Button key='2' color='#f1f1f1' to='/projects' label='Projects' /></li>
-                        <li><Button key='3' color='#f1f1f1' to='/gamecenter' label='Game Center' /></li>
-                        <li><Button key='4' color='#f1f1f1' to='/contact' label='Contact Me' /></li>
+                        <li><Button key='home' color='#f1f1f1' to='/' label='Home' /></li>
+                        <li><Button key='projects' color='#f1f1f1' to='/projects' label='Projects' /></li>
+                        <li><Button key='gamecenter' color='#f1f1f1' to='/gamecenter' label='Game Center' /></li>
+                        <li><Button key='contact' color='#f1f1f1' to='/contact' label='Contact Me' /></li>
                     </ul>
                 </div>
                 <div className={styles.short_about}>
