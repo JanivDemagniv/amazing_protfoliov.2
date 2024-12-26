@@ -18,21 +18,23 @@ const Button = ({ label, to, color = '#1c1c1c' }) => {
     };
 
     return (
-        <button className={styles.button} onClick={handleClick}>
-            <Link href={to} style={{ color: color }}>{label}</Link>
-            {ripples.map((ripple, index) => (
-                <span
-                    key={index}
-                    className={styles.ripple}
-                    style={{
-                        left: `${ripple.x}px`,
-                        top: `${ripple.y}px`,
-                        width: '50px',
-                        height: '50px',
-                    }}
-                />
-            ))}
-        </button>
+        <Link href={to} passHref>
+            <button className={styles.button} onClick={handleClick}>
+                <span style={{ color: color, fontWeight: 'normal', fontSize: '0.9rem' }}>{label}</span>
+                {ripples.map((ripple, index) => (
+                    <span
+                        key={index}
+                        className={styles.ripple}
+                        style={{
+                            left: `${ripple.x}px`,
+                            top: `${ripple.y}px`,
+                            width: '50px',
+                            height: '50px',
+                        }}
+                    />
+                ))}
+            </button>
+        </Link>
     );
 };
 
