@@ -24,6 +24,11 @@
     transform: scale(0);
 }
 
+.label {
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
 @keyframes ripple-animation {
     0% {
         transform: scale(0);

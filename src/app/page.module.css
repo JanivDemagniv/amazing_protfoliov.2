@@ -5,3 +5,9 @@
   margin-bottom: 5vh;
   min-height: 70vh;
 }
+
+@media (max-width: 768px) {
+  .main {
+    width: 95%;
+  }
+}

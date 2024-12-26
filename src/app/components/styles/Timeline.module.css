@@ -96,22 +96,30 @@
 }
 
 @media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
     .timelineContent {
         float: none;
         margin: 20px auto;
-        max-width: 90%;
+        max-width: 95%;
+        font-size: 1.5rem;
+    }
+
+    .timelineContent Button {
+        margin: 0 auto;
     }
 
     .timelineContent::before {
-        left: 50%;
-        transform: translateX(-50%) translateY(-50%);
+        display: none;
     }
 
     .left .timelineContent {
-        margin-right: 0;
+        left: 0;
     }
 
     .right .timelineContent {
-        margin-left: 0;
+        right: 0;
     }
 }

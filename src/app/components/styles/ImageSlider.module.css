@@ -86,3 +86,10 @@
 .button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
+@media (max-width: 768px) {
+    .slider {
+        width: 100%;
+        height: auto;
+    }
+}

@@ -20,7 +20,7 @@ const Button = ({ label, to, color = '#1c1c1c' }) => {
     return (
         <Link href={to} passHref>
             <button className={styles.button} onClick={handleClick}>
-                <span style={{ color: color, fontWeight: 'normal', fontSize: '0.9rem' }}>{label}</span>
+                <span className={styles.label} style={{ color: color }}>{label}</span>
                 {ripples.map((ripple, index) => (
                     <span
                         key={index}

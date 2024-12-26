@@ -28,3 +28,13 @@
     width: 220px;
     object-fit: contain;
 }
+
+@media (max-width: 768px) {
+    .title {
+        width: 100vw;
+    }
+
+    .picture {
+        display: none;
+    }
+}
