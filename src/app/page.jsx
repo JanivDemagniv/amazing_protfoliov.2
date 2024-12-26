@@ -7,6 +7,7 @@ import projects from "./data/projects";
 import ImageSlider from "./components/ImageSlider";
 import games from "./data/games";
 import About from "./components/About";
+import ContactForm from "./components/ContactForm";
 
 export default function Home() {
   return (
@@ -22,6 +23,13 @@ export default function Home() {
       <About />
       <br />
       <Title
+        title='Game Center'
+        subtitle='Here are some games I have created'
+        src='./gamecenter.jpg'
+        alt='gameCenter'
+      />
+      <ImageSlider slides={games} />
+      <Title
         title='My Projects'
         subtitle='My Proggress as a Developer'
         src='./projects.jpg'
@@ -30,12 +38,12 @@ export default function Home() {
       <Timeline events={projects} />
       <br />
       <Title
-        title='Game Center'
-        subtitle='Here are some games I have created'
-        src='./gamecenter.jpg'
-        alt='gameCenter'
+        title='Contact Me'
+        subtitle='Send me mail :)'
+        src='./sendmail.jpeg'
+        alt='send mail'
       />
-      <ImageSlider slides={games} />
+      <ContactForm />
     </div>
   );
 }

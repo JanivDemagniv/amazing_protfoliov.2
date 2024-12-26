@@ -31,7 +31,7 @@ const ImageSlider = ({ slides }) => {
                         <div className={styles.textOverlay}>
                             <h2 className={styles.header}>{slide.header}</h2>
                             <p className={styles.content}>{slide.content}</p>
-                            <Button label='To The Project' to={slide.projectUrl} color='white' />
+                            {slide.projectUrl ? <Button label='To The Project' to={slide.projectUrl} color='white' /> : null}
                             <Button label='GitHub' to={slide.githubUrl} color='white' />
                         </div>
                     </div>

@@ -9,7 +9,7 @@ export default function About() {
             <div className={styles.aboutHeader}>
                 <div className={styles.header}>
                     <h2>Yaniv Romem</h2>
-                    <h5>Small Summary</h5>
+                    <h5>Summary</h5>
                 </div>
                 <div className={styles.imgHeader}>
                     <img src="./protfolioPic.jpg" alt="Profile Picture" />

@@ -1,5 +1,10 @@
 const skills = [
     {
+        name: 'Python',
+        imgUrl: './skills/python.svg',
+        imgAlt: 'Python'
+    },
+    {
         name: 'HTML',
         imgUrl: './skills/HTML.svg',
         imgAlt: 'HTML'

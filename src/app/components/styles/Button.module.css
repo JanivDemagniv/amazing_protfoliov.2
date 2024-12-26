@@ -1,5 +1,6 @@
 .button {
     color: #1c1c1c;
+    margin: 2px;
     background-color: inherit;
     position: relative;
     overflow: hidden;
