@@ -60,15 +60,6 @@
     }
 
     .menu {
-        display: flex !important;
-        position: static;
-        flex-direction: row;
-        background: none;
-        box-shadow: none;
-        padding: 0;
-    }
-
-    .menu a {
-        margin: 0 15px;
+        display: none
     }
 }

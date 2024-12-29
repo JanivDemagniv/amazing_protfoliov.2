@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles/navbar.module.css'
 import Button from './Button'
 import { Lobster } from 'next/font/google'
+import MobileMenu from './MobileMenu'
 
 const lobster = Lobster({
     subsets: ['latin'],
@@ -23,7 +24,7 @@ export default function NavBar({ }) {
                     <li><Button key='gameUp' to='/gamecenter' label='Game Center' /></li>
                     <li><Button key='contactUp' to='/contact' label='Contact Me' /></li>
                 </ul>
-
+                <MobileMenu />
             </div>
         </nav>
     )
