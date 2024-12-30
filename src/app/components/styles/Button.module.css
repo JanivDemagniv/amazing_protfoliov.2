@@ -1,6 +1,10 @@
+.container {
+    margin: 0 auto;
+}
+
 .button {
     color: #1c1c1c;
-    margin: 2px;
+    margin: 2px auto;
     background-color: inherit;
     position: relative;
     overflow: hidden;

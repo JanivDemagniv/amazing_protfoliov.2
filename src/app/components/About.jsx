@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './styles/About.module.css'
 import Button from './Button'
+import about_text from '../data/about_text'
 
 
 export default function About() {
@@ -16,9 +17,9 @@ export default function About() {
                 </div>
             </div>
             <p>
-                My name is Yaniv Romem, I'm 33 form Tel Aviv. most of my life I tried to pursue my life goal to become a musician. trough out the years I realized that music is my love, but not my proffetion. I dicided to take a change in my life and go back to my old dream to become a web developer. as a kid I used to build websites with photoshop and HTML, back then I didn't know English but it didn't bother me finding the relvnte code I needed for my websites. I do belive that my life expriens will help me get along in any working enviorment
+                {about_text.text}
             </p>
-            <Button to="#" label="Download my CV" />
+            <Button to="./YanivRomem_Cv.pdf" download={true} label="Download my CV" />
         </div>
     )
 }

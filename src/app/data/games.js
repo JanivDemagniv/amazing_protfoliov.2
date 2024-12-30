@@ -2,7 +2,11 @@ const games = [
     {
         image: '/survival.jpg',
         header: 'Survival Game',
-        content: 'Surviving game, try to stay alive while all enemies will follow you and try to take you down. using python and pygame to develope this survival classic game',
+        content: `Survival game.
+
+Try staying alive while enemies follow you and try to take you down.
+
+Developed using Python and Pygame library.`,
         githubUrl: 'https://github.com/JanivDemagniv/VampireSurvivor'
     },
     {

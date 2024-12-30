@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import styles from './styles/Button.module.css'
 import Link from 'next/link';
 
-const Button = ({ label, to, color = '#1c1c1c' }) => {
+const Button = ({ label, to, color = '#1c1c1c', download = false }) => {
     const [ripples, setRipples] = useState([]);
 
     const handleClick = (e) => {
@@ -18,7 +18,7 @@ const Button = ({ label, to, color = '#1c1c1c' }) => {
     };
 
     return (
-        <Link href={to} passHref>
+        <Link href={to} passHref className={styles.container} download={download}>
             <button className={styles.button} onClick={handleClick}>
                 <span className={styles.label} style={{ color: color }}>{label}</span>
                 {ripples.map((ripple, index) => (
