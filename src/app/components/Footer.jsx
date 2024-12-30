@@ -3,7 +3,6 @@ import styles from './styles/footer.module.css';
 import Button from './Button';
 import IconButton from './IconButton';
 import { Lobster, Handlee } from 'next/font/google'
-import about_text from '../data/about_text';
 
 const lobster = Lobster({
     subsets: ['latin'],
@@ -30,7 +29,23 @@ export default function Footer({ }) {
                 </div>
                 <div className={styles.short_about}>
                     <h5>About</h5>
-                    <p className={handlee.className} style={{ fontWeight: 'normal' }}>{about_text.text}</p>
+                    <p className={handlee.className} style={{ fontWeight: 'normal' }}>
+                        Welcome!
+                        <br />
+                        <br />
+                        My name is Yaniv Romem.I'm 33 years old, living in Tel Aviv.
+
+                        <br />
+                        <br />
+                        For the better part of my life, I’ve been pursuing my childhood dream of becoming a musician, but through the years I’ve realized that while music will always remain my love, it should not be my profession as well.
+                        <br />
+
+                        A year and a half ago, I decided to change direction and instead aim at another subject I was always fascinated by- Software Development.
+
+                        <br />
+                        <br />
+                        As a kid I loved building Websites using Photoshop and HTML.Back then I barely knew English, but it didn't stop me from building the things I wanted, using the tools and knowledge I managed to find on my own. Today, having learned Software Development properly, I believe my experience, determination, and continuous will to learn will help me get along in any work environment I'll set foot in.
+                    </p>
                 </div>
             </div>
             <div className={styles.media}>
