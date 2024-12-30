@@ -9,7 +9,7 @@ export default function page() {
         <div className={styles.main}>
             <Title
                 title='My Projects'
-                subtitle='My Proggress as a Developer'
+                subtitle='My Progress as a Developer'
                 src='./projects.jpg'
                 alt='projects'
             />
